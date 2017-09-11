@@ -1,9 +1,14 @@
+-Version 2017.09.10
+
+Minor bug fixes, Scrappers updated
+___________________________________________________________________________
+
 - Version Version 2017.06.27
 Complete upgrade. Add-on was completely updated 
 New Fanart, New Icon, Updated database, More sources, New menu, Trakt support, IMDB and more.
 New look, New Feel.
 ___________________________________________________________________________
-- Version Version 2017.05.01
+- Version 2017.05.01
 Overall addon menu updated
 minor bugs fix
 New system settings

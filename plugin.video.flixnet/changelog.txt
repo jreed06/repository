@@ -1,4 +1,10 @@
+]B]8.21.17
+Overall update and movie sources updated
+_____________________________________________
 
+[B]7.20.17[/B]
+In Theaters section added
+_____________________________________________
 [B]6.24.17[/B]
 Added support for Trakt
 Added support for Trailers

@@ -1,4 +1,6 @@
-
+[B]7.26.17
+New scrappers. Minor bug fixes
+____________________________________________
 [B]6.26.17[/B]
 Added support for Trakt
 Added support for Trailers
