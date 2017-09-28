@@ -160,11 +160,12 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.showboxarize" version="9.13.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
+<addon id="plugin.video.showboxarize" version="9.27.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
-		<import addon="script.showboxarize.artwork" version="1.0.4" />
+		<import addon="script.module.showboxarize" />
+		<import addon="script.showboxarize.artwork" version="1.0.0" />
 		<import addon="script.showboxarize.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
@@ -452,6 +453,17 @@
     <source>https://github.com/beenje/script.module.requests</source>
     <email>beenje AT gmail.com</email>
   </extension>
+</addon>
+
+<addon id="script.module.showboxarize" name="showboxarize Module" version="1.00.000" provider-name="showboxarize">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Showbox Arize</summary>
+	</extension>
 </addon>
 
 <addon id="script.module.simplejson"
