@@ -1,3 +1,9 @@
+[B]9.27.17
+Reduced default provider timeout to 20 seconds
+Added Alluc as new source in add-on settings
+Added new section: In Theaters
+____________________________________________
+
 [B]7.26.17
 New scrappers. Minor bug fixes
 ____________________________________________

@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.showboxarize" version="9.13.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.showboxarize" version="9.27.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
-		<import addon="script.showboxarize.artwork" version="1.0.4" />
+		<import addon="script.module.showboxarize" />
+		<import addon="script.showboxarize.artwork" version="1.0.0" />
 		<import addon="script.showboxarize.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
