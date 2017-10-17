@@ -1,10 +1,10 @@
-<addon id="plugin.video.flixnet" version="10.15.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
+<addon id="plugin.video.flixnet" version="10.16.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
 		<import addon="script.flixnet.artwork" version="1.0.4" />
 		<import addon="script.flixnet.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.33" />
+		<import addon="script.module.urlresolver" version="4.0.07" />
 		<import addon="script.module.metahandler" version="2.9.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup"/>

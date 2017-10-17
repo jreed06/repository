@@ -48,13 +48,13 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.flixnet" version="10.15.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
+<addon id="plugin.video.flixnet" version="10.16.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
 		<import addon="script.flixnet.artwork" version="1.0.4" />
 		<import addon="script.flixnet.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.33" />
+		<import addon="script.module.urlresolver" version="4.0.07" />
 		<import addon="script.module.metahandler" version="2.9.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup"/>
@@ -89,13 +89,13 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.genesisreborn" version="2017.10.15" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
+<addon id="plugin.video.genesisreborn" version="2017.10.16" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
 		<import addon="script.genesisreborn.artwork" version="1.0.4" />
 		<import addon="script.genesisreborn.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.33" />
+		<import addon="script.module.urlresolver" version="4.0.07" />
 		<import addon="script.module.metahandler" version="2.9.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup"/>
@@ -515,9 +515,12 @@
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.29" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.07" provider-name="Eldorado, tknorris, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
@@ -525,6 +528,7 @@
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <source>https://github.com/jsergio123/script.module.urlresolver</source>
 	</extension>
 </addon>
 

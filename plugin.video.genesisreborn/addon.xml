@@ -1,10 +1,10 @@
-<addon id="plugin.video.genesisreborn" version="2017.10.15" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
+<addon id="plugin.video.genesisreborn" version="2017.10.16" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
 		<import addon="script.genesisreborn.artwork" version="1.0.4" />
 		<import addon="script.genesisreborn.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.33" />
+		<import addon="script.module.urlresolver" version="4.0.07" />
 		<import addon="script.module.metahandler" version="2.9.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup"/>
