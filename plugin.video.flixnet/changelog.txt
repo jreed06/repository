@@ -1,3 +1,11 @@
+]B]10.15.17
+
+Updated scrapers
+fixed sources
+new streaming sourced added
+Added Alluc in accounts
+_____________________________________________
+
 ]B]8.21.17
 Overall update and movie sources updated
 _____________________________________________

@@ -48,13 +48,13 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.flixnet" version="10.18.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
+<addon id="plugin.video.flixnet" version="10.27.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
 		<import addon="script.flixnet.artwork" version="1.0.4" />
 		<import addon="script.flixnet.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="4.0.07" />
+		<import addon="script.module.urlresolver" version="3.0.33" />
 		<import addon="script.module.metahandler" version="2.9.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup"/>
@@ -89,13 +89,13 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.genesisreborn" version="2017.10.16" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
+<addon id="plugin.video.genesisreborn" version="2017.10.27" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
 		<import addon="script.genesisreborn.artwork" version="1.0.4" />
 		<import addon="script.genesisreborn.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="4.0.07" />
+		<import addon="script.module.urlresolver" version="3.0.33" />
 		<import addon="script.module.metahandler" version="2.9.0" />
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup"/>
@@ -168,7 +168,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.showboxarize" version="9.27.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
+<addon id="plugin.video.showboxarize" version="10.27.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
@@ -199,6 +199,47 @@
 			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>- Initial release
+- Free movies
+- Free TV Shows</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.uluautoplay" version="10.27.17" name="[B][COLOR green]Ulu[/COLOR] Autoplay[/B]" provider-name="Ulu Autoplay">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.jesusboxtv" version="1.0.0" />
+		<import addon="script.uluautoplay.artwork" version="1.0.4" />
+		<import addon="script.uluautoplay.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="4.0.07" />
+		<import addon="script.module.metahandler" version="2.9.0" />
+		<import addon="script.module.requests"/>
+		<import addon="script.module.beautifulsoup"/>
+		<import addon="script.module.futures"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="uluautoplay.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"> Ulu Autoplay for Movies and TV Shows</summary>
+		<description lang="en">Created by developer [B][COLOR green]JP Hightek[/COLOR][/B]. Please remember that [B][COLOR green]Ulu[/COLOR] Autoplay[/B] is not an official part of the Kodi media player you are running, and therefore is not to be mentioned within official support channels of Kodi, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<description lang="de">Bitte besuche [COLOR red]www.jesusboxmedia.tv[/COLOR] für Unterstützung und Fragen zu Uluautoplay! Beachte dabei, dass uluautoplay nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<description lang="fr">SVP visitez [COLOR red]www.jesusboxmedia.tv[/COLOR] pour avoir de l'aide sur uluautoplay. Prenez note que uluautoplay n'est pas une partie intégrante de votre outil de visionnement multimedia et SVP ne le mentionnez pas dans les media sociaux officiels, cet addiciel n'a rien a voir avec votre lecteur multimedia lui même, c'est simplement un addiciel qui a été ajouté à votre système.</description>
+		<disclaimer lang="fr">L'auteur n'héberge pas ou ne distribue pas le contenu qui vous est affiché avec cet addiciel. L'auteur n'a pas d'alliance avec les distributeurs de contenu.</disclaimer>
+		<platform>all</platform>
+		<forum>https://www.jesusboxmedia.tv</forum>
+		<website>https://www.jesusboxmedia.tv/</website>
+		<source>https://jesusboxrepo.xyz/repo</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-1.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-2.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-3.jpg</screenshot>
 		</assets>
 		<news>- Initial release
 - Free movies
@@ -400,8 +441,8 @@
 
 <addon id="script.module.metahandler"
      name="metahandler"
-     version="2.9.0"
-     provider-name="Eldorado">
+     version="3.0.2"
+     provider-name="Eldorado, jsergio">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -411,7 +452,7 @@
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com</description>
+    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <platform>all</platform>
@@ -515,7 +556,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.07" provider-name="Eldorado, tknorris, jsergio">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.08" provider-name="Eldorado, tknorris, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -527,7 +568,9 @@
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
         <source>https://github.com/jsergio123/script.module.urlresolver</source>
 	</extension>
 </addon>
@@ -552,6 +595,32 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Metadata for the Showboxarize Addon</summary>
 		<description>Metadata for Showboxarize are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.uluautoplay.artwork" version="1.4.1" name="Ulu Autoplay Artwork" provider-name="Ulu Autoplay">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the uluautoplay Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.uluautoplay.metadata" version="1.0.1" name="uluautoplay Metadata" provider-name="Hulu Autoplay">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the uluautoplay Addon</summary>
+		<description>Metadata for uluautoplay are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
