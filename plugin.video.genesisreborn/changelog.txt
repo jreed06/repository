@@ -1,14 +1,28 @@
--Version 2017.09.10
+-Version 2017.12.16
+New scrapers
+new scripts
+_____________________________________________
+
+-Version 2017.11.12
+General update
+new sources
+_____________________________________________
+-Version 2017.10.17
+
+Updated scrapers
+Added Alluc in accounts
+_____________________________________________
+-Version 2017.09.17
 
 Minor bug fixes, Scrappers updated
 ___________________________________________________________________________
 
-- Version Version 2017.06.27
+- Version Version 2017.06.17
 Complete upgrade. Add-on was completely updated 
 New Fanart, New Icon, Updated database, More sources, New menu, Trakt support, IMDB and more.
 New look, New Feel.
 ___________________________________________________________________________
-- Version 2017.05.01
+- Version 2017.05.17
 Overall addon menu updated
 minor bugs fix
 New system settings

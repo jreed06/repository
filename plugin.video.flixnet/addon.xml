@@ -1,4 +1,4 @@
-<addon id="plugin.video.flixnet" version="11.12.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
+<addon id="plugin.video.flixnet" version="12.16.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />

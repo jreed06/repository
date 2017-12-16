@@ -1,3 +1,29 @@
+
+]B]12.16.17
+New scrapers
+minor bug fixes
+_____________________________________________
+
+]B]11.12.17
+General update
+New sources
+minor bug fixes
+_____________________________________________
+]B]11.07.17
+Changed layout
+updated providers
+removed non working captcha providers
+_____________________________________________
+
+]B]11.03.17
+
+Changed, updated and added new providers (123Netflix)
+_____________________________________________
+
+]B]11.01.17
+
+Updated providers and scrapers
+_____________________________________________
 ]B]10.15.17
 
 Updated scrapers
