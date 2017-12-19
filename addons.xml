@@ -130,7 +130,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.jesusboxiptv" name="JesusBox IPTV" version="1.0.0" provider-name="JesusBox">
+<addon id="plugin.video.jesusboxiptv" name="JesusBox IPTV" version="1.0.3" provider-name="JesusBox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
