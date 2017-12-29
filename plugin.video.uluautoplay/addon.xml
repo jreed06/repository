@@ -1,4 +1,4 @@
-<addon id="plugin.video.uluautoplay" version="10.27.17" name="[B][COLOR green]Ulu[/COLOR] Autoplay[/B]" provider-name="Ulu Autoplay">
+<addon id="plugin.video.uluautoplay" version="12.29.17" name="[B][COLOR green]Ulu[/COLOR] Autoplay[/B]" provider-name="Ulu Autoplay">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />

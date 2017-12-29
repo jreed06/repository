@@ -1,3 +1,9 @@
+]B]01.01.18
+New module
+New sources
+Scrapers updated
+
+____________________________________________
 [B]12.16.17
 
 New script and new scrapers added

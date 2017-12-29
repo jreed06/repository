@@ -1,3 +1,8 @@
+
+-Version 2018.01.01
+Updated scrapers, Added New sources
+
+_____________________________________________
 -Version 2017.12.16
 New scrapers
 new scripts

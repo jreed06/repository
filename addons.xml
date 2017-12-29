@@ -48,7 +48,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.flixnet" version="12.16.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
+<addon id="plugin.video.flixnet" version="12.29.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
@@ -89,7 +89,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.genesisreborn" version="2017.12.16" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
+<addon id="plugin.video.genesisreborn" version="2017.12.29" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
@@ -168,7 +168,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.showboxarize" version="12.16.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
+<addon id="plugin.video.showboxarize" version="12.29.17" name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]" provider-name="[COLOR yellow][B]Show[/COLOR]Box Ar[COLOR yellow]ize[/COLOR][/B]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
@@ -206,7 +206,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.uluautoplay" version="10.27.17" name="[B][COLOR green]Ulu[/COLOR] Autoplay[/B]" provider-name="Ulu Autoplay">
+<addon id="plugin.video.uluautoplay" version="12.29.17" name="[B][COLOR green]Ulu[/COLOR] Autoplay[/B]" provider-name="Ulu Autoplay">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
@@ -541,7 +541,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.showboxarize" name="showboxarize Module" version="1.00.001" provider-name="showboxarize">
+<addon id="script.module.showboxarize" name="showboxarize Module" version="1.00.002" provider-name="showboxarize">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -593,7 +593,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.15" provider-name="Eldorado, tknorris, tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.16" provider-name="Eldorado, tknorris, tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />

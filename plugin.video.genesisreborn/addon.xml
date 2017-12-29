@@ -1,4 +1,4 @@
-<addon id="plugin.video.genesisreborn" version="2017.12.16" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
+<addon id="plugin.video.genesisreborn" version="2017.12.29" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
