@@ -412,7 +412,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.flixnet" name="flixnet Module" version="1.00.031" provider-name="flixnet">
+<addon id="script.module.flixnet" name="flixnet Module" version="1.00.032" provider-name="flixnet">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
