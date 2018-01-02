@@ -48,22 +48,20 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.flixnet" version="12.29.17" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
+<addon id="plugin.video.flixnet" version="01.02.18" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
-		<import addon="script.flixnet.artwork" version="1.0.4" />
+		<import addon="script.module.flixnet" />
+		<import addon="script.flixnet.artwork" version="1.0.0" />
 		<import addon="script.flixnet.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="4.0.07" />
-		<import addon="script.module.metahandler" version="2.9.0" />
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup"/>
-		<import addon="script.module.futures"/>
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="flixnet.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Movies and TV Shows on [COLOR red]FlixNet[/COLOR]</summary>
 		<description lang="en">Created by developer [COLOR red]JP Hightek[/COLOR] for Jesus Box Media. Please visit [COLOR red]www.jesusboxmedia.tv[/COLOR] for FlixNet support and assistance! Please remember that Flixnet is not an official part of the Kodi media player you are running, and therefore is not to be mentioned within official support channels of Kodi, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
@@ -89,7 +87,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.genesisreborn" version="2017.12.29" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
+<addon id="plugin.video.genesisreborn" version="2018.01.02" name="[B]Genesis Reborn[/B]" provider-name="Genesis Reborn">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
@@ -313,7 +311,7 @@
 	</extension>
 </addon>
 
-<addon id="script.flixnet.artwork" version="1.0.5" name="flixnet Artwork" provider-name="flixnet">
+<addon id="script.flixnet.artwork" version="1.0.7" name="flixnet Artwork" provider-name="flixnet">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -325,14 +323,14 @@
 	</extension>
 </addon>
 
-<addon id="script.flixnet.metadata" version="1.0.0" name="Flixnet Metadata" provider-name="Flixnet">
+<addon id="script.flixnet.metadata" version="1.0.0" name="flixnet Metadata" provider-name="flixnet">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Flixnet Addon</summary>
-		<description>Metadata for Flixnet are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Metadata for flixnet Addon</summary>
+		<description>Metadata for flixnet are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -412,6 +410,17 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="script.module.flixnet" name="flixnet Module" version="1.00.030" provider-name="flixnet">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">flixnet</summary>
+	</extension>
 </addon>
 
 <addon id="script.module.futures"
