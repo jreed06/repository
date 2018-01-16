@@ -65,7 +65,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.flixnet" version="2018.01.15" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
+<addon id="plugin.video.flixnet" version="2018.01.16" name="[COLOR red][B]FlixNet[/B][/COLOR]" provider-name="[COLOR red][B]FlixNet[/B][/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.jesusboxtv" version="1.0.0" />
@@ -328,7 +328,7 @@
 	</extension>
 </addon>
 
-<addon id="script.flixnet.artwork" version="1.0.7" name="flixnet Artwork" provider-name="flixnet">
+<addon id="script.flixnet.artwork" version="1.0.8" name="flixnet Artwork" provider-name="flixnet">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -340,7 +340,7 @@
 	</extension>
 </addon>
 
-<addon id="script.flixnet.metadata" version="1.0.0" name="flixnet Metadata" provider-name="flixnet">
+<addon id="script.flixnet.metadata" version="1.0.1" name="flixnet Metadata" provider-name="flixnet">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -429,7 +429,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.flixnet" name="flixnet Module" version="1.00.032" provider-name="flixnet">
+<addon id="script.module.flixnet" name="flixnet Module" version="1.00.033" provider-name="flixnet">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
