@@ -145,6 +145,35 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.jbiptvpro" name="Jesus Box IPTV Pro" version="4.3.70" provider-name="JesusBox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common"/>
+    <import addon="script.module.pyxbmct"  />
+    <import addon="script.module.requests"/>
+    <import addon="script.module.dateutil"/>
+	<import addon="repository.vader-streams.tv"/>
+    <import addon="script.tvguide.Vader"/>
+
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource"
+            library="init.py">
+        <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.service" library="service.py" start="login"></extension>
+  <!--<extension point="xbmc.service" library="playMonitor.py" start="login"></extension>-->
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jesus Box IPTV Pro</summary>
+	<description lang="en">Best IPTV solution for Kodi. Watch over 500+ High quality channels, TV Guide, Sports, PPV, 1 account up to 5 connections.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.jesusboxiptv" name="JesusBox IPTV" version="1.0.3" provider-name="JesusBox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -324,6 +353,20 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Welcome to the Jesusbox Repository where you will find all Jesusbox produced Addon-ons and wizards</summary>
 		<description>The Best Media Center Box Available</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.vader-streams.tv" name="Vaders.tv Add-ons" version="1.0.3" provider-name="DarthVader">
+	<extension point="xbmc.addon.repository" name="Vaders.tv Add-ons Add-on Repository">
+		<info compressed="false">http://repo.vaders.tv/repo/addons.xml</info>
+		<checksum>http://repo.vaders.tv/repo/addons.xml.md5</checksum>
+                <datadir zip="true">http://repo.vaders.tv/repo/</datadir>
+                </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from vader-streams.tv</summary>
+		<description>Download and install add-ons from vaders.tv addon repository.[CR][CR]By using this Repository you will be able to take advantage of our cutting edge features.</description>
+		<disclaimer>DarthVader</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -661,6 +704,35 @@
 		<description>Metadata for Showboxarize are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.tvguide.Vader" name="TV Guide" version="1.4.64" provider-name="IPTVGuy">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.dateutil" version="2.4.2" />
+		<import addon="script.module.addon.common" optional="true" />
+		<import addon="script.module.pil" />
+		<import addon="script.extendedinfo" />
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+
+		<summary lang="en">TV Guide For IPTV</summary>
+		<description lang="en">TV Guide for IPTV</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum></forum>
+        <source></source>
+        <website></website>
+        <email></email>
+    </extension>
 </addon>
 
 <addon id="script.uluautoplay.artwork" version="1.4.1" name="Ulu Autoplay Artwork" provider-name="Ulu Autoplay">
